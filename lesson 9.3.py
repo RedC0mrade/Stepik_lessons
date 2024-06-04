@@ -1,2 +1,1 @@
-print(print.__delattr__)
-
+12312312312
