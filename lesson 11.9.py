@@ -1,6 +1,6 @@
 from re import sub
 
 
-text = 'beegeek,beegeek,beegeek! python python.. Python.. stepik?stepik?stepik'
+text = 'Ba-Ba-Ba-Ba-Barbara Ann'
 
-print(sub(r'\b(\w+)(\W+\1?\b)+', r'\w+', text))
+print(sub(r'\b(\w+)(\W+\1\b)+', r'\1', text))
