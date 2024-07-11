@@ -1,7 +1,7 @@
 glas = ['а', 'у', 'о', 'ы', 'и', 'э', 'я', 'ю', 'ё', 'е']
 word = input()
 words = [input() for i in range(int(input()))]
-n=[]
+n = []
 
 for i in word:
     if i in glas:
