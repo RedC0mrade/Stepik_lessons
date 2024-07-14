@@ -8,5 +8,3 @@ with open(r'C:\Downloads\files.txt', 'r', encoding='utf-8') as file:
 
 for i, k in result.items():
     print(sorted(k))
-#result = sorted(result, key=lambda x: result[x])
-#print(result)
